@@ -1,0 +1,43 @@
+
+/* Styles for the BookingForm component */
+.booking-form {
+  max-width: 420px;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 20px;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; Set a background color for the form */
+}
+
+.booking-form h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.booking-form button {
+ 
+  padding: 10px 8px;
+  border-radius: 8px;
+    background-color: rgb(189, 119, 119);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    border: none;
+}
+
+.booking-form button:hover {
+  color: black;
+}

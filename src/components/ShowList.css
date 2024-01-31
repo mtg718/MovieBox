@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #cdcea6;
+}
+h1{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-list-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Updated: Set justify-content to space-around */
+  align-items: flex-start; /* Align items to the start */
+}
+
+.show-card {
+  flex: 0 0 calc(33.33% - 40px); /* Updated: Set each card to take up 33.33% of the width */
+  border: 1px solid #e0e0e0;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+}
+
+.show-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.show-genres {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.show-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+ 
+}
+
+
+
+.show-details-link button {
+  margin-top: .5rem;
+  padding: 8px 8px;
+  border-radius: 8px;
+    background-color: rgb(189, 119, 119);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    border: none;
+}
+
+.show-details-link button:hover {
+  color: black;
+}
+

@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 8%;
+}
+
+.left {
+  width: 30%; /* Adjust the width of the left portion */
+}
+
+.left img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.right {
+  width: 65%; /* Adjust the width of the right portion */
+}
+
+.right h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.right p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.right button {
+  margin-top: .5rem;
+  padding: 10px 8px;
+  border-radius: 8px;
+    background-color: rgb(189, 119, 119);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    border: none;
+}
+
+.right button:hover {
+  color: black;
+}
